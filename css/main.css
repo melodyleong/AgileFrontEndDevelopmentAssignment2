@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glozzio-logo {
+  text-align: center;
+}
+
+.glozzio-wishlist-header {
+  text-align: center;
+  color: rgb(255, 168, 183);
+}
+
+.container {
+  max-width: 600px; /* Adjust as needed for your layout */
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#addButton, #saveButton {
+  background-color: pink;
+  color: rgb(255, 255, 255);
+  border: 2px solid pink;
+  border-radius: 100px;
+  font-size: 14px;
+  white-space: nowrap;
+  width: 150px; /* Fixed width for both buttons */
+}
+
+#addButton {
+  margin-bottom: 10px; /* Space between the buttons */
+}
+
+#addButton:hover, #saveButton:hover {
+  background-color: pink;
+  border-color: pink;
+}
+
+input.form-control, #wishlist {
+  max-width: 100%;
+}
+
+ul#wishlist {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+
+.bg-pink {
+  background-color: pink;
+  color: white;
+}
+
+.btn-pink {
+  background-color: pink;
+  border-color: pink;
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: pink;
+  border-color: pink;
+  color: white;
+}
